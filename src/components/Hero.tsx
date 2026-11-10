@@ -11,22 +11,20 @@ export const Hero: React.FC<HeroProps> = ({ onExplorePrograms, onAboutMe }) => {
     <section id="inicio" className="relative min-h-[100svh] flex flex-col justify-between overflow-hidden pt-24 sm:pt-28 pb-6 sm:pb-8 bg-[#0a100c]">
       {/* Background composition with REAL photo of Poli in the tulip field with arms open */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-        {/* Deep atmospheric backdrop */}
-        <div className="absolute inset-0 bg-gradient-to-b sm:bg-gradient-to-r from-[#070d09] via-[#09130c]/80 to-[#0b170f]/40" />
-
-        {/* Real photo of Poli in tulip field: Perfectly centered on Poli in mobile and desktop */}
-        <div className="absolute top-0 right-0 w-full sm:w-[70%] lg:w-[62%] h-[62%] sm:h-full opacity-60 sm:opacity-80 lg:opacity-95">
+        {/* Real photo of Poli in tulip field: full width with smooth gradient overlay to avoid any vertical lines */}
+        <div className="absolute inset-0 w-full h-full opacity-60 sm:opacity-85 lg:opacity-95">
           <picture>
             <source media="(max-width: 640px)" srcSet="/material/hero_mobile_centered.jpg" />
             <img
               src="/material/hero_tulipanes.jpg"
               alt="Poli Heredia - Conexión y presencia en Yoga Pausa"
-              className="w-full h-full object-cover object-[center_72%] sm:object-[center_65%] filter blur-[2px] sm:blur-[1.5px] scale-105 brightness-[0.92] contrast-[1.08] saturate-[1.1]"
+              className="w-full h-full object-cover object-[center_72%] sm:object-[right_65%] filter blur-[1.5px] scale-105 brightness-[0.9] contrast-[1.08] saturate-[1.1]"
             />
           </picture>
-          {/* Subtle gradient fades so text remains crisp and readable on both mobile and desktop */}
-          <div className="absolute inset-0 bg-gradient-to-t sm:bg-gradient-to-r from-[#070d09] via-[#070d09]/75 sm:via-[#070d09]/55 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0a100c] via-transparent to-[#070d09]/70" />
+
+          {/* Seamless smooth gradients that blend Poli into the dark background with zero seams/lines */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#070d09] via-[#070d09]/85 sm:via-[#070d09]/75 to-transparent sm:w-[65%]" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0a100c] via-transparent to-[#070d09]/60" />
         </div>
       </div>
 
