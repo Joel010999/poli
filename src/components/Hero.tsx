@@ -21,7 +21,7 @@ export const Hero: React.FC<HeroProps> = ({ onExplorePrograms, onAboutMe }) => {
             <img
               src="/material/hero_tulipanes.jpg"
               alt="Poli Heredia - Conexión y presencia en Yoga Pausa"
-              className="w-full h-full object-cover object-[center_72%] sm:object-[center_65%] filter brightness-[0.95] contrast-[1.05]"
+              className="w-full h-full object-cover object-[center_72%] sm:object-[center_65%] filter blur-[2px] sm:blur-[1.5px] scale-105 brightness-[0.92] contrast-[1.08] saturate-[1.1]"
             />
           </picture>
           {/* Subtle gradient fades so text remains crisp and readable on both mobile and desktop */}
