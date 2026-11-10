@@ -71,7 +71,7 @@ export const TALLER_PRESENCIAL_GESTION = {
   priceOnlineNote: "($50.000 ARS en modalidad online)",
   description:
     "En Gestión de Emoción hacemos un recorrido amable con preguntas diseñadas para abordar cada emoción y descubrir su raíz.",
-  image: "/material/presencial_encuentro_playa.jpg", // Foto real del grupo de mujeres en meditación
+  image: "/material/poli_meditacion_presencial.jpg", // Foto real de Poli en meditación frente al agua
   whatsappMsg: WHATSAPP_MESSAGES.tallerPresencialGestion,
 };
 
