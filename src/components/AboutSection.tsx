@@ -82,11 +82,11 @@ export const AboutSection: React.FC = () => {
             <div className="lg:col-span-6">
               <div className="flex items-center gap-2 mb-3">
                 <span className="text-[10px] sm:text-[11px] font-semibold tracking-[0.28em] uppercase text-[#A36B4F]">
-                  TRAYECTORIA & PROPÓSITO
+                  SOBRE POLI HEREDIA
                 </span>
               </div>
               <h3 className="text-2xl sm:text-3xl lg:text-4xl font-serif text-[#162118] mb-4 sm:mb-6">
-                Mi camino
+                Trayectoria, recorrido & propósito
               </h3>
               <div className="w-12 sm:w-16 h-[2px] bg-[#A36B4F]/40 mb-6 sm:mb-8" />
 

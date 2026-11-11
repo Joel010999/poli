@@ -6,7 +6,7 @@ export const CONTACT_INFO = {
   instagram: "https://instagram.com/yogapausa",
   instagramHandle: "@yogapausa",
   email: "contacto@yogapausa.com.ar",
-  location: "Córdoba & Online para todo el mundo",
+  location: "Ushuaia & Online para todo el mundo",
 };
 
 // Generador de enlaces de WhatsApp directo
@@ -17,7 +17,7 @@ export const getWhatsAppLink = (message: string) => {
 // Mensajes preconfigurados por propuesta
 export const WHATSAPP_MESSAGES = {
   general: "Hola Poli, estuve navegando en Yoga Pausa y me gustaría consultar sobre tus espacios y propuestas.",
-  programa1: "Hola Poli, estuve viendo el Taller Medito con el infinito (Promo Aniversario $144.000 los 2 meses) y me gustaría sumarme.",
+  programa1: "Hola Poli, estuve viendo el Taller Medito con el infinito (Mes Aniversario $111.000 los 2 meses) y me gustaría sumarme.",
   programa2: "Hola Poli, quiero conocer más sobre el taller Mi SHAKTi es SHANTi y los centros energéticos.",
   programa3: "Hola Poli, me interesa el Taller Gestión de Emoción online.",
   tallerPresencialGestion: "Hola Poli, me interesa reservar mi lugar para el Taller Presencial Gestión de Emoción.",
@@ -80,14 +80,14 @@ export const PROGRAMS = [
   {
     id: "medito-infinito",
     slug: "medito-con-el-infinito",
-    badge: "2 Meses · Precio Aniversario",
+    badge: "2 Meses · Mes Aniversario 🪻",
     name: "Medito con el infinito",
     tagline: "Cuando MEDiTO, Me-EDiTO",
     description:
       "Una invitación a descubrir la meditación desde la sencillez, habitando el presente sin exigencias. No se trata solamente de aprender una técnica, sino de incorporar un espacio de práctica, silencio y diálogo íntimo con vos misma.",
-    price: "$144.000 ARS",
+    price: "$111.000 ARS",
     originalPrice: "$180.000 ARS",
-    priceNote: "Precio especial mes aniversario de Pausa (los 2 meses). Posibilidad de abonar en 2 partes.",
+    priceNote: "🪻 Precio especial Mes Aniversario de Pausa (los 2 meses). Posibilidad de abonar en 2 partes.",
     paymentOption: "Se puede abonar en 2 cuotas / partes",
     forWhom:
       "Orientado a personas que quieren comenzar a meditar, sienten inquietud mental o dispersión, y desean desarrollar un hábito propio y sostenible en el tiempo.",
@@ -119,13 +119,14 @@ export const PROGRAMS = [
   {
     id: "mi-shakti-shanti",
     slug: "mi-shakti-es-shanti",
-    badge: "Profundización · 2 Meses",
+    badge: "Profundización · 2 Meses · Mes Aniversario 🪻",
     name: "Mi SHAKTi es SHANTi",
     tagline: "Reconocé y conectá con tu energía Kundalini y tus 7 Chakras",
     description:
       "Un recorrido profundo y estructurado por los centros energéticos para despertar tu fuerza vital y armonizar tu cuerpo físico, energético y emocional. Diseñado con videos, meditaciones guiadas y reflexiones transformadoras.",
-    price: "$200.000 ARS",
-    priceNote: "Taller completo de 2 meses. Posibilidad de abonar en 2 partes.",
+    price: "$111.000 ARS",
+    originalPrice: "$200.000 ARS",
+    priceNote: "🪻 Precio especial Mes Aniversario de Pausa (los 2 meses). Posibilidad de abonar en 2 partes.",
     paymentOption: "Se puede abonar en 2 cuotas / partes",
     forWhom:
       "Ideal para practicantes de yoga o personas que buscan despertar su energía sutil, trascender bloqueos y habitar una paz profunda (Shanti) en su vida cotidiana.",
@@ -148,13 +149,14 @@ export const PROGRAMS = [
   {
     id: "gestion-emocion",
     slug: "gestion-de-emocion",
-    badge: "Propuesta Avanzada · 2 Meses",
+    badge: "Terapia con Meditación · 2 Meses · Mes Aniversario 🪻",
     name: "Gestión de Emoción",
     tagline: "Cuando nos permitimos habitar la emoción, descubrimos su raíz",
     description:
       "En la práctica del Yoga, fusiono herramientas de psicología con la Meditación para reconocer, dar lugar y regular emociones como la ansiedad, el enojo y la culpa. Un recorrido amable y profundo hacia la autorregulación consciente.",
-    price: "$250.000 ARS",
-    priceNote: "Taller online de 2 meses. Posibilidad de abonar en 2 partes.",
+    price: "$111.000 ARS",
+    originalPrice: "$250.000 ARS",
+    priceNote: "🪻 Precio especial Mes Aniversario de Pausa (los 2 meses). Posibilidad de abonar en 2 partes.",
     paymentOption: "Se puede abonar en 2 cuotas / partes",
     forWhom:
       "Para quienes desean trascender la reacción automática, dejar de pelear con lo que sienten y desarrollar una relación compasiva y madura con su mundo emocional.",
@@ -310,7 +312,7 @@ export const ABOUT_POLI = {
     "Desde 2011, Poli ha acompañado y sostenido a numerosas personas en su proceso de liberación de creencias limitantes, ayudándolas a encontrar el equilibrio entre su cuerpo físico, energético y emocional.",
     "Con su enfoque centrado y compasivo, Poli guía a sus alumnos hacia un camino de crecimiento y transformación personal, siempre recomendando empezar por uno mismo.",
   ],
-  studentCredit: "Texto escrito con cariño por una alumna de Poli",
+  studentCredit: "Palabras de una alumna y actualmente colega de Poli, egresada en Pausa",
   closingMission:
     "Guiarte con presencia y profundidad para que descubras tus propias herramientas de transformación.",
   quote:
